@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.form-example{
+    margin-left: 40px;
+}
+input{
+    width: 50%;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    border: none;
+    border-bottom: 1px black solid;
+    background: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input::placeholder {
+    color: black;
+}
+.form-example-button{
+    margin-left: 20%;
+}
+.button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 20px 60px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+table{
+    margin-top: 40px;
+    width: 100%;
+    border: 2px solid crimson;
+    margin-bottom: 60px;
+    text-align: center;
+}
+table th{
+    border: 1px solid black;
+}
+table td{
+    border: 1px solid black;
+
+}
+.image{
+        width: 50%;
+}
